@@ -1,0 +1,202 @@
+body {
+    background-color: #403a35;
+    color: #f9e7c4;
+}
+
+p {
+    margin: 10px; /* WHY IS 15 DEFAULT !? */
+}
+
+.req {
+    margin: 0px;
+    margin-bottom: 40px;
+    
+    color: #ff7a7a; 
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+}
+
+.submission {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    background-color: #736962;
+}
+
+#form1, #content_right {
+    width: 100%;
+}
+
+.inputField {
+    margin-bottom: 20px;
+}
+
+.inputField div {
+    margin: 0;
+}
+
+.horizontal_children {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputField textarea {
+    margin-top: 5px;
+    width: 98%;
+    max-width: 98%;
+    min-height: 200px;
+    resize: vertical;
+    background-color: #46413d;
+    color: #fff;
+}
+
+input:not([type]), input[type="text"], input[type="number"] {
+    background-color: #46413d;
+    color: #fff;
+}
+
+/* GOOD Ol' CENTER ELEMENTS IN CSS */ 
+.makeCentered {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.stripedTable {
+    border-collapse: collapse;
+    width: 98%;
+    background-color: #555;
+}
+
+.stripedTable th, .stripedTable  td {
+    border: 1px solid black;
+    padding: 4px;
+    padding-left: 10px;
+}
+
+.stripedTable tr:nth-child(even) {
+    background-color: #393939;
+}
+
+#sleigh_content {
+    display: flex;
+    flex-direction: row;
+}
+
+#sleigh_actions {
+    width: 35%;
+}
+
+#sleigh_display {
+    width: 100%;
+}
+
+.linkButton {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: #e4f1fe;
+    text-decoration: underline;
+    cursor: pointer;
+
+    font-size: inherit;
+}
+
+.listTable {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 98%;
+}
+
+.listTable td {
+    padding: 4px;
+    border-top: 1px dotted black;
+}
+
+.status0LateNoReview {
+    background-color: rgb(130, 76, 76);
+}
+
+.status1LateAdmitted {
+    background-color: rgb(130, 94, 76);
+}
+
+.status2NoReview {
+    background-color: rgb(71, 93, 134);
+}
+
+.status3Admitted {
+    background-color: rgb(128, 130, 76);
+}
+
+.status4Delivered {
+    background-color: rgb(76, 130, 84);
+}
+
+.status5Denied {
+    background-color: rgb(94, 94, 94);
+}
+
+#deliveryInfoBox {
+    width: 98%;
+    border: 1px dotted black;
+    display: flex;
+    flex-direction: row;
+}
+
+#deliveryInfoBox div {
+    width: 100%;
+}
+
+.link {
+    color: #94dbff;   
+}
+
+.link:visited {
+    color: #94dbff;
+}
+
+#performAdmission {
+    margin: 10px;
+    border: 1px dotted black;
+    background-color: #403a35;
+}
+
+#performAdmission p {
+    width: 95%;
+    text-align: center;
+}
+
+#admitButton {
+    width: 60%;
+    height: 5em;    
+    background-color: rgb(76, 130, 84);
+}
+
+#denyButton {
+    width: 60%;
+    height: 5em;   
+    background-color: rgb(130, 76, 76);
+}
+
+#colorKeys td {
+    padding-right: 20px;
+}
+
+#coloredBox {
+    float: left;
+    height: 10px;
+    width: 10px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    margin-right: 10px;
+    border: 1px solid black;
+    clear: both;
+}
+
+#statusDiv {
+    padding-left: 10px;
+}
